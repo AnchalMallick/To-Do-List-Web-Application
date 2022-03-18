@@ -5,4 +5,5 @@ The frontend(client side) is built using HTML and CSS. EJS is used for creating 
 
 TO DO:
 (1) Integration with database to enable saving the content even on restarting the server, updating and deleting functionality.
-(2) Deployment of the web app on Heroku.
+(2) Giving the user enough flexibility to create custom lists
+(3) Deployment of the web app on Heroku.

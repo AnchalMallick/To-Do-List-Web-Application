@@ -155,6 +155,6 @@ app.post("/delete", function(req, res){   //create a post method that handles po
 
 //                        Start the server on port 3000                       //
 
-app.listen(3000,function(){     //start the server on port 3000
-  console.log("Server started on port 3000");
+app.listen(process.env.PORT || 3000,function(){     //start the server
+  console.log("Server started successfully");
 });
